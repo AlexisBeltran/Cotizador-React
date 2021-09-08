@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/AlexisBeltran/Cotizador-React.git/static/css/main.362ccae0.chunk.css",
-    "main.js": "/AlexisBeltran/Cotizador-React.git/static/js/main.f4ab73d5.chunk.js",
-    "main.js.map": "/AlexisBeltran/Cotizador-React.git/static/js/main.f4ab73d5.chunk.js.map",
-    "runtime-main.js": "/AlexisBeltran/Cotizador-React.git/static/js/runtime-main.0bfac038.js",
-    "runtime-main.js.map": "/AlexisBeltran/Cotizador-React.git/static/js/runtime-main.0bfac038.js.map",
-    "static/js/2.12fcf838.chunk.js": "/AlexisBeltran/Cotizador-React.git/static/js/2.12fcf838.chunk.js",
-    "static/js/2.12fcf838.chunk.js.map": "/AlexisBeltran/Cotizador-React.git/static/js/2.12fcf838.chunk.js.map",
-    "static/js/3.13ecc314.chunk.js": "/AlexisBeltran/Cotizador-React.git/static/js/3.13ecc314.chunk.js",
-    "static/js/3.13ecc314.chunk.js.map": "/AlexisBeltran/Cotizador-React.git/static/js/3.13ecc314.chunk.js.map",
-    "index.html": "/AlexisBeltran/Cotizador-React.git/index.html",
-    "static/css/main.362ccae0.chunk.css.map": "/AlexisBeltran/Cotizador-React.git/static/css/main.362ccae0.chunk.css.map",
-    "static/js/2.12fcf838.chunk.js.LICENSE.txt": "/AlexisBeltran/Cotizador-React.git/static/js/2.12fcf838.chunk.js.LICENSE.txt"
+    "main.css": "/Cotizador-React.git/static/css/main.362ccae0.chunk.css",
+    "main.js": "/Cotizador-React.git/static/js/main.f4ab73d5.chunk.js",
+    "main.js.map": "/Cotizador-React.git/static/js/main.f4ab73d5.chunk.js.map",
+    "runtime-main.js": "/Cotizador-React.git/static/js/runtime-main.a4b9ac04.js",
+    "runtime-main.js.map": "/Cotizador-React.git/static/js/runtime-main.a4b9ac04.js.map",
+    "static/js/2.12fcf838.chunk.js": "/Cotizador-React.git/static/js/2.12fcf838.chunk.js",
+    "static/js/2.12fcf838.chunk.js.map": "/Cotizador-React.git/static/js/2.12fcf838.chunk.js.map",
+    "static/js/3.13ecc314.chunk.js": "/Cotizador-React.git/static/js/3.13ecc314.chunk.js",
+    "static/js/3.13ecc314.chunk.js.map": "/Cotizador-React.git/static/js/3.13ecc314.chunk.js.map",
+    "index.html": "/Cotizador-React.git/index.html",
+    "static/css/main.362ccae0.chunk.css.map": "/Cotizador-React.git/static/css/main.362ccae0.chunk.css.map",
+    "static/js/2.12fcf838.chunk.js.LICENSE.txt": "/Cotizador-React.git/static/js/2.12fcf838.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bfac038.js",
+    "static/js/runtime-main.a4b9ac04.js",
     "static/js/2.12fcf838.chunk.js",
     "static/css/main.362ccae0.chunk.css",
     "static/js/main.f4ab73d5.chunk.js"
