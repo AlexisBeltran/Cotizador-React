@@ -1,16 +1,16 @@
-import React, {Fragment, useState} from 'react';
+import React, { Fragment, useState } from 'react';
 import { CalcularTotal } from './Helpers';
 const Formulario = (props) => {
-    const {Cantidad, GuardarCantidad, Plazo, GuardarPlazo, GuardarTotal, GuardarCargando} = props;
+    const { Cantidad, GuardarCantidad, Plazo, GuardarPlazo, GuardarTotal, GuardarCargando } = props;
     //Definir el state 
     const [Error, GuardarError] = useState(false);
     const CalcularPrestamo = (e) => {
         e.preventDefault();
-        if(Cantidad === 0 || Plazo === ''){
+        if (Cantidad === 0 || Plazo === '') {
             GuardarError(true);
-            setTimeout(()=>{
+            setTimeout(() => {
                 GuardarError(false);
-            },3000);
+            }, 3000);
             return;
         }
         GuardarError(false);
@@ -20,25 +20,26 @@ const Formulario = (props) => {
             GuardarTotal(Total);
             GuardarCargando(false);
         }, 3000);
-        
+
     }
 
-    return (  
+    return (
         <Fragment>
             <form onSubmit={CalcularPrestamo}>
                 <div className="row">
                     <div>
                         <label>Cantidad Prestamo</label>
-                        <input 
-                            className="u-full-width" 
-                            type="number" 
-                            placeholder="Ejemplo: 3000" 
-                            onChange={ e => GuardarCantidad(parseInt(e.target.value))}
+                        <input
+                            className="u-full-width"
+                            type="number"
+                            placeholder="Ejemplo: 3000"
+                            value={Cantidad}
+                            onChange={e => GuardarCantidad(parseInt(e.target.value))}
                         />
                     </div>
                     <div>
                         <label>Plazo para Pagar</label>
-                        <select 
+                        <select
                             className="u-full-width"
                             onClick={e => GuardarPlazo(parseInt(e.target.value))}
                         >
@@ -50,19 +51,19 @@ const Formulario = (props) => {
                         </select>
                     </div>
                     <div>
-                        <input 
-                            type="submit" 
-                            value="Calcular" 
-                            className="button-primary u-full-width" 
+                        <input
+                            type="submit"
+                            value="Calcular"
+                            className="button-primary u-full-width"
                         />
                     </div>
-                </div> 
+                </div>
             </form>
 
-            {(Error) ? <p className="error">Todos los campos son obligatorios</p>: null }
-            
+            {(Error) ? <p className="error">Todos los campos son obligatorios</p> : null}
+
         </Fragment>
     );
 }
- 
+
 export default Formulario;
